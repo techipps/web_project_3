@@ -1,8 +1,8 @@
 .grid {
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(2, 213px);
   row-gap: 16px;
   column-gap: 16px;
 }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 900px) {
   .grid {
-    min-width: 720px;
+    width: 768px;
     grid-template-columns: 1fr, 1fr;
     grid-template-rows: auto;
   }

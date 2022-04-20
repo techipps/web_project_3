@@ -1,12 +1,11 @@
 .places {
-  border: 1px solid red;
-  width: 987px;
+  width: 984px;
   margin: 92px auto;
 }
 .place {
   display: grid;
-  grid-template-columns: 460px, 1fr;
-  grid-template-rows: auto, auto, 460px;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto auto 1fr;
   column-gap: 40px;
   row-gap: 48px;
   grid-template-areas:
@@ -66,7 +65,8 @@
 }
 
 .place__content {
-  margin: 25px 0;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .place__image {

@@ -2,16 +2,19 @@
   position: relative;
   justify-content: center;
   margin: 0;
-  padding: 0 148px;
+  padding: 0 100px;
   max-width: 100vw;
 }
 
 .header__logo {
+  position: absolute;
+  top: 34px;
+  left: 505px;
   height: 70px;
   width: 270px;
   padding-top: 34px;
-  padding-left: 505px;
-  padding-right: 505px;
+  margin: 0 auto;
+  padding-bottom: 90px;
 }
 
 .header__title {
@@ -23,6 +26,9 @@
   line-height: 100px;
   letter-spacing: 0em;
   text-align: center;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  padding-top: 194px;
 }
 
 .header__subtitle {
@@ -34,6 +40,8 @@
   line-height: 36px;
   letter-spacing: 0em;
   text-align: center;
+  margin: 0 auto;
+  padding-bottom: 64px;
 }
 
 .header__photo {
