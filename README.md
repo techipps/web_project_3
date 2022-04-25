@@ -19,6 +19,6 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 **Github Pages**
 
-Here is a link to my git hub pages: https://github.com/techipps/techipps.github.io.git
+Here is a link to my git hub pages: https://techipps.github.io/web_project_3/
   
 Good luck and have fun!  
