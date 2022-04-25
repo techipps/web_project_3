@@ -3,6 +3,7 @@
 * Intro  
 * Figma  
 * Images  
+* github pages
   
 **Intro**    
   
@@ -15,5 +16,9 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 **Images**  
   
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+
+**Github Pages**
+
+Here is a link to my git hub pages: https://github.com/techipps/techipps.github.io.git
   
 Good luck and have fun!  
