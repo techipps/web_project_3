@@ -32,7 +32,7 @@
   align-self: end;
 }
 
-.place__artist_label {
+.place__label {
   font-family: "Inter", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -42,7 +42,7 @@
   margin: 0;
 }
 
-.place__artist_name {
+.place__name {
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
