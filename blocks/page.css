@@ -1,20 +1,19 @@
 .page {
   background: #2a2c2f;
   color: #ffffff;
-  margin: 0;
-  max-width: 1280px;
+  margin: 0 auto;
   min-width: 320px;
   padding: 0 48px;
 }
 
 @media screen and (max-width: 900px) {
   .page {
-    padding: 0 24px;
+    padding: 0;
   }
 }
 
 @media screen and (max-width: 400px) {
   .page {
-    padding: 0 16px;
+    padding: 0;
   }
 }

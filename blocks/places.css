@@ -1,117 +1,17 @@
 .places {
   width: 984px;
   margin: 92px auto;
-}
-.place {
-  display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: auto auto 1fr;
-  column-gap: 40px;
-  row-gap: 48px;
-  grid-template-areas:
-    "title artist"
-    "image text"
-    "button text";
-  padding-bottom: 80px;
-}
-
-.place__title {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 76px;
-  letter-spacing: 0em;
-  text-align: left;
-  grid-area: title;
-  margin: 0;
-  max-width: 100%;
-}
-
-.place__artist {
-  grid-area: artist;
-  max-width: max-content;
-  max-height: max-content;
-  align-self: end;
-}
-
-.place__artist_label {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
-  letter-spacing: 0.12em;
-  text-align: left;
-  margin: 0;
-}
-
-.place__artist_name {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin: 0;
-}
-
-.place__description {
-  font-family: "Inter", Arial, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
-  grid-area: text;
-}
-
-.place__content {
-  margin-top: 0;
-  margin-bottom: 25px;
-}
-
-.place__image {
   width: 100%;
   max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-  display: block;
-  grid-area: image;
-}
-
-.place__button {
-  grid-area: button;
-  background: #0278fe;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  width: max-content;
-  height: max-content;
-  padding: 12px 20px;
 }
 
 @media screen and (max-width: 900px) {
-  .place {
-    grid-template-columns: 340px, 1fr;
-    grid-template-rows: 1fr, 340px;
-    grid-gap: 48px 28px;
+  .places {
+    padding: 0 24;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "text"
-      "button";
-    grid-gap: 30px;
+@media screen and (max-width: 500px) {
+  .places {
+    padding: 0 16px;
   }
 }

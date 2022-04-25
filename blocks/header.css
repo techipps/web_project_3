@@ -7,9 +7,7 @@
 }
 
 .header__logo {
-  position: absolute;
-  top: 34px;
-  left: 505px;
+  display: block;
   height: 70px;
   width: 270px;
   padding-top: 34px;
@@ -28,10 +26,11 @@
   text-align: center;
   margin: 0 auto;
   padding-bottom: 32px;
-  padding-top: 194px;
+  display: block;
 }
 
 .header__subtitle {
+  display: block;
   max-width: 720px;
   max-height: 72px;
   font-family: Inter;
@@ -42,6 +41,7 @@
   text-align: center;
   margin: 0 auto;
   padding-bottom: 64px;
+  padding-top: 32px;
 }
 
 .header__photo {
@@ -50,4 +50,38 @@
   max-width: 100%;
   object-fit: cover;
   display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 0 24px;
+  }
+
+  .header__photo {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 0 16px;
+  }
+
+  .header__title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0em;
+  }
+
+  .header__subtitle {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+
+  .header__photo {
+    padding: 0;
+  }
 }

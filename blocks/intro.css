@@ -37,3 +37,43 @@
   letter-spacing: 0em;
   text-align: left;
 }
+
+@media screen and (max-width: 900px) {
+  .intro {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    padding: 0 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0em;
+  }
+
+  .intro__quote {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+  }
+
+  .intro__quote_signature {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+  }
+
+  .intro__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+  }
+}
