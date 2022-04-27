@@ -90,6 +90,7 @@
   width: max-content;
   height: max-content;
   padding: 12px 20px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 900px) {
@@ -99,6 +100,10 @@
     grid-gap: 48px 28px;
     width: 100%;
     max-width: 720px;
+  }
+
+  .place__padding {
+    padding: 0 24px;
   }
 }
 
@@ -114,6 +119,10 @@
       "button";
     grid-gap: 30px;
     width: 100%;
-    max-width: 320;
+    max-width: 100%;
+  }
+
+  .place__padding {
+    padding: 0 16px;
   }
 }
