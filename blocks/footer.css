@@ -4,6 +4,7 @@
   display: flex;
   z-index: 1;
   text-align: center;
+  padding: 0 48px;
 }
 
 .footer__content {
