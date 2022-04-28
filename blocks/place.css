@@ -93,13 +93,17 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .place {
     grid-template-columns: 340px 1fr;
     grid-template-rows: 1fr 340px;
     grid-gap: 48px 28px;
     width: 100%;
     max-width: 720px;
+  }
+
+  .place__image {
+    padding-left: 24px;
   }
 
   .place__padding {

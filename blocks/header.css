@@ -54,7 +54,7 @@
   display: block;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .header {
     padding: 0;
   }
@@ -65,6 +65,7 @@
 
   .header__title {
     max-width: 720px;
+    max-height: fit-content;
   }
 
   .header__subtitle {
