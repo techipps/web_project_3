@@ -17,18 +17,8 @@
   background-size: cover;
 }
 
-.footer__content::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.footer__content:hover {
   background: #2a2c2f;
-  transition: all 0.3s ease-in-out;
-}
-
-.footer__content:hover::before {
   opacity: 0.3;
 }
 
@@ -76,6 +66,9 @@
   margin: 0 auto;
 }
 
+.footer__button:hover {
+  background: #0063d2;
+}
 @media screen and (max-width: 1100px) {
   .footer {
     max-width: 100%;

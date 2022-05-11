@@ -52,6 +52,7 @@
   max-width: 100%;
   object-fit: cover;
   display: block;
+  filter: grayscale(100%);
 }
 
 @media screen and (max-width: 1100px) {
@@ -64,11 +65,13 @@
   }
 
   .header__title {
-    max-width: 720px;
+    width: auto;
+    max-width: 100%;
     max-height: fit-content;
   }
 
   .header__subtitle {
+    width: auto;
     max-width: 720px;
     padding-bottom: 36px;
   }
