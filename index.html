@@ -10,28 +10,30 @@
     />
     <meta name="author" content="Tyler Chipps" />
     <title>From Homneland to Homeland</title>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
         <img
-          src="images/header__logo.png"
+          src="images/logo.svg"
           class="header__logo"
           alt="Practicum Art Gallery"
         />
-        <h1 class="header__title header__padding">From Homeland to Homeland</h1>
-        <p class="header__subtitle header__padding">
-          An epic journey from Kentucky to Burundi through Wales and Ukraine
-        </p>
-        <img
-          src="images/kalegin-michail-179870-unsplash.png"
-          class="header__photo"
-          alt="Coastal town view"
-        />
       </header>
       <main class="content">
+        <div class="lead">
+          <h1 class="lead__title">From Homeland to Homeland</h1>
+          <p class="lead__subtitle">
+            An epic journey from Kentucky to Burundi through Wales and Ukraine
+          </p>
+          <img
+            src="images/kalegin-michail-179870-unsplash.png"
+            class="lead__photo"
+            alt="Coastal town view"
+          />
+        </div>
         <section class="intro">
           <h2 class="intro__title">
             Know the places your online pals come from a little better
@@ -98,16 +100,14 @@
             />
           </div>
         </section>
-        <div class="places">
+        <section class="places">
           <article class="place">
-            <h3 class="place__title place__padding">Kyiv, Ukraine</h3>
-            <div class="place__artist place__padding">
-              <p class="place__label place__padding">Artist</p>
-              <p class="place__name place__padding">
-                Natalia Dolgushina, content producer
-              </p>
+            <h2 class="place__title">Kyiv, Ukraine</h2>
+            <div class="place__artist">
+              <p class="place__label">Artist</p>
+              <p class="place__name">Natalia Dolgushina, content producer</p>
             </div>
-            <div class="place__description place__padding">
+            <div class="place__description">
               <p class="place__content">
                 Kyiv (or Kiev), Ukraine's capital, is a large city located on
                 the shores of the Dnipro river. Of course, no one in their right
@@ -139,17 +139,13 @@
             </a>
           </article>
           <article class="place">
-            <h3 class="place__title place__padding">Cricieth, Wales</h3>
-            <div class="place__artist place__padding">
-              <p class="place__label place__padding">Artist</p>
-              <p class="place__name place__padding">
-                Steffan Warren, lead editor
-              </p>
-              <p class="place__name place__padding">
-                Kseniya Glagoleva, project manager
-              </p>
+            <h2 class="place__title">Cricieth, Wales</h2>
+            <div class="place__artist">
+              <p class="place__label">Artist</p>
+              <p class="place__name">Steffan Warren, lead editor</p>
+              <p class="place__name">Kseniya Glagoleva, project manager</p>
             </div>
-            <div class="place__description place__padding">
+            <div class="place__description">
               <p class="place__content">
                 The medieval ruin of Cricieth Castle overlooks the town below
                 from a rock that juts out into the sea. It is thought to have
@@ -181,14 +177,12 @@
             </a>
           </article>
           <article class="place">
-            <h3 class="place__title place__padding">Berea, USA</h3>
-            <div class="place__artist place__padding">
-              <p class="place__label place__padding">Artist</p>
-              <p class="place__name place__padding">
-                Travis Turner, author and editor
-              </p>
+            <h2 class="place__title">Berea, USA</h2>
+            <div class="place__artist">
+              <p class="place__label">Artist</p>
+              <p class="place__name">Travis Turner, author and editor</p>
             </div>
-            <div class="place__description place__padding">
+            <div class="place__description">
               <p class="place__content">
                 Berea is a small town located in the central part of Kentucky.
                 The town is surrounded by beautiful forests and countryside.
@@ -220,14 +214,12 @@
             </a>
           </article>
           <article class="place">
-            <h3 class="place__title place__padding">Muramvya, Burundi</h3>
-            <div class="place__artist place__padding">
-              <p class="place__label place__padding">Artist</p>
-              <p class="place__name place__padding">
-                Grevisse Kenguruka, tech editor
-              </p>
+            <h2 class="place__title">Muramvya, Burundi</h2>
+            <div class="place__artist">
+              <p class="place__label">Artist</p>
+              <p class="place__name">Grevisse Kenguruka, tech editor</p>
             </div>
-            <div class="place__description place__padding">
+            <div class="place__description">
               <p class="place__content">
                 Muramvya is one of the 18 provinces of Burundi. In the kingdom
                 era, Muramvya was the royal capital and in 2007, because of its
@@ -266,14 +258,14 @@
             </a>
           </article>
           <article class="place">
-            <h3 class="place__title place__padding">Portland, Oregon, USA</h3>
-            <div class="place__artist place__padding">
-              <p class="place__label place__padding">Artist</p>
-              <p class="place__name place__padding">
-                Tyler Chipps, content producer
+            <h2 class="place__title">Portland, OR</h2>
+            <div class="place__artist">
+              <p class="place__label">Artist</p>
+              <p class="place__name">
+                Tyler Chipps, Software Engineering student
               </p>
             </div>
-            <div class="place__description place__padding">
+            <div class="place__description">
               <p class="place__content">
                 Keep Portland Weird. More than just a saying here. Some people
                 take this statement very much to heart. Yet there are also some
@@ -302,21 +294,20 @@
               Buy this artwork as NFT
             </a>
           </article>
-        </div>
+        </section>
+        <section class="cover">
+          <div class="cover__visit">
+            <h2 class="cover__title">Visit Us</h2>
+            <p class="cover__text">Year Round</p>
+            <p class="cover__text">Practcum Art Gallery</p>
+            <p class="cover__text">404 Tim Bernere-Lee Ave</p>
+            <a class="cover__button" href="#">Buy Tickets</a>
+          </div>
+        </section>
       </main>
       <footer class="footer">
-        <div class="footer__content">
-          <!-- <img class="footer__background" src="/images/footer.png"> -->
-          <h3 class="footer__title">Visit us</h3>
-          <div class="footer__paragraph">
-            <p class="footer__address">Year-round</p>
-            <p class="footer__address">Practicum Art Gallery</p>
-            <p class="footer__address">404 Tim Beaners-Lee Ave</p>
-          </div>
-          <a class="footer__button" href="#"> Buy tickets </a>
-        </div>
+        <p class="footer__copyright">© 2022 Tyler Chipps</p>
       </footer>
-      <p class="copyright">© 2022 Tyler Chipps</p>
     </div>
   </body>
 </html>

@@ -4,48 +4,56 @@
 }
 
 .intro__title {
-  font-family: Inter;
+  font-family: "" Inter ", Arial, sans-serif", Arial, sans-serif;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
   max-width: 785px;
+  padding-bottom: 40px;
 }
 
 .intro__quote {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
   max-width: 785px;
+  padding-bottom: 10px;
 }
 
 .intro__signature {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0em;
   text-align: right;
   max-width: 785px;
+  padding-bottom: 32px;
 }
 
 .intro__paragraph {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
   max-width: 785px;
+  padding-bottom: 118px;
 }
 
 @media screen and (max-width: 1100px) {
   .intro {
     padding: 0 24px;
+  }
+
+  .intro__paragraph {
+    padding-bottom: 90px;
   }
 }
 
@@ -56,29 +64,10 @@
 
   .intro__title {
     font-size: 32px;
-    font-weight: 900;
     line-height: 35px;
-    letter-spacing: 0em;
   }
 
   .intro__quote {
-    font-size: 24px;
-    font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
-  }
-
-  .intro__quote_signature {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    letter-spacing: 0em;
-  }
-
-  .intro__paragraph {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
   }
 }

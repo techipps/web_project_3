@@ -40,6 +40,9 @@
   letter-spacing: 0.12em;
   text-align: left;
   margin: 0;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  padding-bottom: 8px;
 }
 
 .place__name {
@@ -67,6 +70,10 @@
   margin-bottom: 25px;
 }
 
+.place__content:last-of-type {
+  margin: 0;
+}
+
 .place__image {
   width: 100%;
   max-width: 100%;
@@ -84,6 +91,7 @@
   color: white;
   text-align: center;
   text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -101,14 +109,31 @@
   .place {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 340px;
-    grid-gap: 48px 28px;
-    width: 100%;
+    gap: 48px 28px;
     max-width: 720px;
     padding-left: 0;
   }
 
   .place__title {
     font-size: 42px;
+    line-height: 46px;
+    padding: 0 24px;
+  }
+
+  .place__artist {
+    padding: 0 24px;
+  }
+
+  .place__label {
+    padding: 0 24px;
+  }
+
+  .place__name {
+    padding: 0 24px;
+  }
+
+  .place__description {
+    padding: 0 24px;
   }
 
   .place__image {
@@ -131,17 +156,30 @@
       "image"
       "text"
       "button";
-    grid-gap: 30px;
-    width: 100%;
+    gap: 30px;
     max-width: 100%;
   }
 
+  .place__title {
+    padding: 0 16px;
+  }
   .place__image {
     padding-left: 0;
-    width: auto;
   }
 
-  .place__padding {
+  .place__artist {
+    padding: 0 16px;
+  }
+
+  .place__label {
+    padding: 0 16px;
+  }
+
+  .place__name {
+    padding: 0 16px;
+  }
+
+  .place__description {
     padding: 0 16px;
   }
 }
