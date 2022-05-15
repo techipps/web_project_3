@@ -40,6 +40,7 @@
 }
 .cover__title {
   margin: 0 0 32px 0;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -49,6 +50,7 @@
 }
 .cover__text {
   margin: 0;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -61,10 +63,11 @@
   background: #0278fe;
   padding: 13px 20px;
   border-radius: 4px;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 21.78px;
   text-decoration: none;
   color: #fff;
   display: table;
