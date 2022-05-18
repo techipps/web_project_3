@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto 460px 1fr;
   column-gap: 40px;
   row-gap: 48px;
   grid-template-areas:
@@ -11,6 +11,11 @@
   padding-bottom: 80px;
   width: 100%;
   max-width: 100%;
+  margin: 0 auto;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
 }
 
 .place__title {
@@ -76,8 +81,7 @@
 
 .place__image {
   width: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
   grid-area: image;
@@ -97,56 +101,30 @@
   line-height: 22px;
   width: max-content;
   height: max-content;
-  padding: 12px 20px;
-  margin: 0 auto;
+  padding: 13px 20px;
 }
 
 .place__button:hover {
   background: #0063d2;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 340px;
-    gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 340px 1fr;
+    gap: 46px 28px;
     max-width: 720px;
-    padding-left: 0;
+    width: auto;
+    padding-bottom: 72px;
   }
 
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    padding: 0 24px;
-  }
-
-  .place__artist {
-    padding: 0 24px;
-  }
-
-  .place__label {
-    padding: 0 24px;
-  }
-
-  .place__name {
-    padding: 0 24px;
-  }
-
-  .place__description {
-    padding: 0 24px;
-  }
-
-  .place__image {
-    padding-left: 24px;
-    width: auto;
-  }
-
-  .place__padding {
-    padding: 0 24px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -158,11 +136,17 @@
       "button";
     gap: 30px;
     max-width: 100%;
+    padding: 0 0 50px 0;
   }
+}
 
+@media screen and (max-width: 400px) {
   .place__title {
+    font-size: 32px;
+    line-height: 35px;
     padding: 0 16px;
   }
+
   .place__image {
     padding-left: 0;
   }
@@ -171,15 +155,13 @@
     padding: 0 16px;
   }
 
-  .place__label {
-    padding: 0 16px;
-  }
-
-  .place__name {
-    padding: 0 16px;
-  }
-
   .place__description {
     padding: 0 16px;
+  }
+
+  .place__button {
+    padding: 13px 40px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
