@@ -91,32 +91,23 @@
     min-height: 746px;
     width: 100%;
   }
-
-  .cover__title {
-    font-size: 32px;
-    line-height: 35px;
-    margin-bottom: 32px;
-  }
-
-  .cover__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .cover__button {
-    margin: 32px auto 0;
-  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .cover {
     min-height: 254px;
     margin-top: 64px;
   }
 
   .cover__title {
+    font-size: 32px;
+    line-height: 35px;
     margin-bottom: 16px;
+  }
+
+  .cover__text {
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .cover__button {
